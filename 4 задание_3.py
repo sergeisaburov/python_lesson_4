@@ -22,5 +22,8 @@ def element_iz_spiska(N): # вводим функцию
     list_d.sort(key=lambda i: i[1])  # сортируем по возрастанию
     print('Первые буквы отсортированные по возрастанию:', type(list_d), list_d)
     print(list_d[0:1])  # выводим первый элемент списка
+    letters = list_d[0:1]
+    print('Самая редкая буква:', type(letters), letters)
     print(list_d[N])  # выводим заданный элемент списка
+
 element_iz_spiska(0)
