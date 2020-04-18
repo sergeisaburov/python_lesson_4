@@ -23,7 +23,8 @@ def element_iz_spiska(N): # вводим функцию
     print('Первые буквы отсортированные по возрастанию:', type(list_d), list_d)
     print(list_d[0:1])  # выводим первый элемент списка
     letters = list_d[0:1]
-    print('Самая редкая буква:', type(letters), letters)
-    print(list_d[N])  # выводим заданный элемент списка
+    print('Самая редкая буква:', type(letters), letters)  # выводим Самая редкая буква: <class 'list'> [('д', 1)]
+    print(list_d[N])  # выводим заданный элемент списка ('д', 1)
+    print("Самая редкая первая буква имени:", list_d[N][0])  # выводим заданный элемент списка просто буквой д
 
 element_iz_spiska(0)
