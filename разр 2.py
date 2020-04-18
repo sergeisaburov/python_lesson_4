@@ -5,11 +5,11 @@ print('Выведем радугу')
 for i in range(len(Rainbow)):
     print(Rainbow[i])
 
-# дано: s = 'ab12c59p7dq'
+# дано: s = 'ab12c59p7dq-№:%"='
 # надо: извлечь цифры в список digits,
 # чтобы стало так:
 # digits == [1, 2, 5, 9, 7]
-s = 'ab12c59p7dq'
+s = 'ab12c59p7dq-№:%"='
 digits = []
 for symbol in s:
     if '1234567890'.find(symbol) != -1:
@@ -23,3 +23,4 @@ print(''.join(a))
 # вернёт redgreenblue
 print('***'.join(a))
 # вернёт red***green***blue
+
